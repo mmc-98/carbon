@@ -159,7 +159,7 @@ sqlx = { version = "0.8.5", features = [
 sqlx_migrator = { version = "0.17.0", features = ["postgres"] }
 syn = { version = "1.0", features = ["full"] }
 thiserror = { version = "2.0.12", default-features = false }
-tokio = { version = "1.43.0", features = ["rt", "time", "signal", "macros"] }
+tokio = { version = "1.38.0", features = ["rt", "time", "signal", "macros"] }
 tokio-retry = "0.3.0"
 tokio-util = "0.7.13"
 tonic = { version = "0.10", features = ["tls", "tls-roots", "tls-webpki-roots"] }
